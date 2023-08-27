@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Form 2</title>
+        <style>
+            body{
+            background-image: url("./assests/bg.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%; 
+            }
+            .center {
+            border: 1px solid;
+            margin: auto;
+            width: 30%;
+            margin-top: 11% ;
+            padding: 25px 100px 50px;           
+            box-shadow: 0 0 5px 0 ;
+            backdrop-filter: blur(10px);
+    
+        }
+        .container{
+            display: grid; 
+            grid-template-columns: 2fr 1fr;
+            grid-gap: 10px;             
+            background: inherit;       
+             }
+             .feild{    
+                
+                background: inherit;
+           font-size: large;
+           border-color: white;
+             }
+       
+
+            </style>
+    </head>
+    <body>
+        <div class="center" >
+            <div class="container" style="font-family:sans-serif; font-size: xx-large;margin-top: 10%;">
+                <p>LOGIN</p>
+            
+            <div class="container" style="border-color: brown;" >
+                <input type="text"  placeholder="Username" class="feild"><br><br>
+                <input type="password"  placeholder="Password" class="feild"><br><br>
+                <button type="button" style="font-size:large;width: 250px;color: white;padding: 2%;background: inherit;border-radius: 12px;cursor: pointer;">Login</button>
+            </div>
+        </div>
+    </body>
+</html>
